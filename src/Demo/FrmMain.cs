@@ -27,7 +27,6 @@ namespace Demo
                 return;
             }
             // 保存用户输入的Url,和追加模式设置
-            Properties.Settings.Default.Save();
 
             this.webBrowser.Navigate(this.urlTextBox.Text);
             this.webBrowser.DocumentCompleted += webBrowser_DocumentCompleted;

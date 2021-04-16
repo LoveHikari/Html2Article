@@ -206,8 +206,7 @@
             // appendCheckBox
             // 
             this.appendCheckBox.AutoSize = true;
-            this.appendCheckBox.Checked = global::Demo.Properties.Settings.Default.appendMode;
-            this.appendCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::Demo.Properties.Settings.Default, "appendMode", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.appendCheckBox.Checked = false;
             this.appendCheckBox.Location = new System.Drawing.Point(675, 57);
             this.appendCheckBox.Name = "appendCheckBox";
             this.appendCheckBox.Size = new System.Drawing.Size(72, 16);
@@ -217,12 +216,11 @@
             // 
             // urlTextBox
             // 
-            this.urlTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::Demo.Properties.Settings.Default, "url", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.urlTextBox.Location = new System.Drawing.Point(101, 25);
             this.urlTextBox.Name = "urlTextBox";
             this.urlTextBox.Size = new System.Drawing.Size(565, 21);
             this.urlTextBox.TabIndex = 0;
-            this.urlTextBox.Text = global::Demo.Properties.Settings.Default.url;
+            this.urlTextBox.Text = "";
             // 
             // FrmMain
             // 

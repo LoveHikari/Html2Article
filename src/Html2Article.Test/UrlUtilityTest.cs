@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using StanSoft;
 using NUnit.Framework;
+using StanSoft;
 
 namespace Html2Article.Test
 {
