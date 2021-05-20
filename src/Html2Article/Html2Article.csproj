@@ -3,19 +3,19 @@
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
 		<RootNamespace>StanSoft</RootNamespace>
-		<PackageId>Html2Article-netstandard</PackageId>
-		<Authors>Yu XiaoWei</Authors>
-		<Product>Html2Article-netstandard</Product>
+		<PackageId>Hikari.Html2Article</PackageId>
+		<Authors>Asanoame</Authors>
+		<Product>Hikari.Html2Article</Product>
 		<Company>5cm R &amp; D department</Company>
-		<Description>
-			.NET平台下，一个高效的从Html中提取正文的工具。
-			正文提取采用了基于文本密度的提取算法，支持从压缩的Html文档中提取正文，每个页面平均提取时间为30ms，正确率在95%以上。
-		</Description>
-		<LicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</LicenseUrl>
-		<ProjectUrl>https://github.com/LoveHikari/Html2Article</ProjectUrl>
+		<Description>.NET平台下，一个高效的从Html中提取正文的工具。
+正文提取采用了基于文本密度的提取算法，支持从压缩的Html文档中提取正文，每个页面平均提取时间为30ms，正确率在95%以上。</Description>
+		<PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+		<PackageProjectUrl>https://github.com/LoveHikari/Html2Article</PackageProjectUrl>
 		<Version>2.0.0</Version>
 		<Language>zh-CN</Language>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<PackageReleaseNotes>迁移到.net6.0</PackageReleaseNotes>
+		<PackageTags>Html Article 网页正文提取</PackageTags>
 	</PropertyGroup>
 
 </Project>
